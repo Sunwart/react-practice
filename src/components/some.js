@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import someImg from './img.jfif';
+import { Button } from './some.styled';
 
 const elem1 = <span>Hello! </span>;
 const elem2 = <span>My name is Galya :)</span>;
@@ -22,7 +23,7 @@ const painting = (
     </p>
     <p>Цена: {data.price} кредитов</p>
     <p>Доступность: заканчивается или есть в наличии</p>
-    <button type="button">Добавить в корзину</button>
+    <Button>Добавить в корзину</Button>
   </div>
 );
 
